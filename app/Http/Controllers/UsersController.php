@@ -65,7 +65,11 @@ class UsersController extends Controller
         }
 
         $user = User::create($request->all());
-        return response()->json($user, 201);
+        // return response()->json($user, 201);
+        $users = User::all();
+
+        return view('users.add')->with('success', 'User Saved Successfully');
+
     }
 
     /**
