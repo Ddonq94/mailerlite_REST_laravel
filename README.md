@@ -1,4 +1,4 @@
-Integration Engineer assignment
+MailerLite REST API wrapper
 
 To setup
 
@@ -12,7 +12,6 @@ To setup
 
 What is left
 
--   Filter API doesnt seem to work (No idea why)
--   No tests because Lord knows I have taken long enough on this task and my phpUnit is still at the beginner's stage (Still learning)
+-   Filter API doesnt seem to work (maybe I will fix this someday)
 -   For the edit and delete endpoints, email address was used, ID did not work.
 -   the Adding user form still needs work
